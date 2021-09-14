@@ -7,10 +7,10 @@ This is a simple React SPA with demo of features like React Components, Typescri
 
 # Project Structure
 
-Components folder contains the React Functional Components
-Interfaces contains Typescript Interfaces used
-Constants Folder contains the Labels, messages, errors used across the project
-API Folder contains Services being used
+Components folder contains the React Functional Components\
+Interfaces contains Typescript Interfaces used\
+Constants Folder contains the Labels, messages, errors used across the project\
+API Folder contains Services being used\
 
 # Main Libs Used
 React, Typescript, Tailwind, Craco, Yup, Axios
