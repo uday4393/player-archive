@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .form-label {
+    @apply block text-gray-700 text-sm font-bold mb-2;
+  }
+  .form-input {
+    @apply bg-onefootball-tertiary w-full p-3 text-gray-700 leading-tight border border-transparent focus:outline-none focus:ring-1 focus:ring-onefootball-primary focus:border-transparent;
+  }
+  .form-btn {
+    @apply text-white bg-onefootball-secondary-100 hover:bg-onefootball-secondary-200 focus:bg-onefootball-secondary-100 rounded-3xl py-3 px-8;
+  }
+  .form-error {
+    @apply text-red-500 text-sm p-px;
+  }
+}
